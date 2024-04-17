@@ -1,0 +1,6 @@
+1234567890
+1234567890
+
+Open the delete_line.txt file in Vim by running vim delete_line.txt.
+
+Use the command :g/JUNK/d to delete all lines containing the word 'JUNK'. This command searches for lines matching 'JUNK' (:g/JUNK/) and deletes them (d).

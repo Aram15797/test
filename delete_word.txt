@@ -1,0 +1,36 @@
+1 234567890
+123  456   7890
+1  234567890
+  
+
+1234567890
+ 
+12    34567890
+1    2345678   90
+123    4567890
+
+123456   7890
+1234  567890 
+1234567890
+
+1234567    90
+123  45678   90
+
+
+123   4567890
+12345678    90
+
+
+
+
+12  34567890
+1234567  890
+1234   567890
+
+To delete all occurrences of the word 'JUNK' from the delete_word.txt file and write down the commands used, you can follow these steps in Vim:
+
+Open the delete_word.txt file in Vim by running vim delete_word.txt.
+
+Use the command :%s/JUNK//g to delete all occurrences of the word 'JUNK'. This command searches for 'JUNK' in the entire file (%) and replaces it with nothing, effectively deleting it.
+
+Navigate to the end of the file by pressing G.
